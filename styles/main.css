@@ -184,7 +184,7 @@ nav {
   padding: 24px;
   top: 60px;
   box-sizing: border-box;
-  position: absolute;
+  position: fixed;
   right: 0;
   background-color: var(--white);
 }
