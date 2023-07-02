@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YardSale: tienda online</title>
+    <link
+      rel="shortcut icon"
+      href="./logos/favicon_yard_sale.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav">
+      <img
+        src="./icons/icon_menu.svg"
+        alt="menu"
+        class="menu"
+        id="btnMenuMobile"
+        data-type="menuMobile"
+      />
+
+      <div class="navbar-left">
+        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+
+        <ul>
+          <li>
+            <a href="/">All</a>
+          </li>
+          <li>
+            <a href="/">Clothes</a>
+          </li>
+          <li>
+            <a href="/">Electronics</a>
+          </li>
+          <li>
+            <a href="/">Furnitures</a>
+          </li>
+          <li>
+            <a href="/">Toys</a>
+          </li>
+          <li>
+            <a href="/">Others</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email" id="email" data-type="menu">
+            platzi@example.com
+          </li>
+          <li
+            class="navbar-shopping-cart"
+            id="btnShoppingCart"
+            data-type="productDetail"
+          >
+            <img
+              src="./icons/icon_shopping_cart.svg"
+              data-type="productDetail"
+              alt="shopping cart"
+            />
+            <div>2</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
